@@ -1,27 +1,39 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# moveIonic
 
-## How to use this template
+This app accompanies the Ionic component documentation.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+[[LIVE DEMO]](http://ionicframework.com/docs/components/)
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+### Installation & Development
 
-### With the Ionic CLI:
+1. clone this repo: `git clone https://github.com/brhoollynodeStudy/moveIonic.git`
+2. `cd moveIonic`
+3. `npm install`
+4. run `ionic serve` from a terminal
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+### Running locally on the site
 
+1. Clone `ionic-site` as a sibling directory to this app: `git clone git@github.com:ionic-team/ionic-site.git`
+2. Follow the steps for running `ionic-site` locally: [https://github.com/ionic-team/ionic-site#local-build](https://github.com/ionic-team/ionic-site#local-build)
+3. Follow the steps for running this repo: [https://github.com/ionic-team/ionic-preview-app#installation--development](https://github.com/ionic-team/ionic-preview-app#installation--development)
+4. Make any changes you want to this project and then build/serve it
+5. Copy the www folder to `ionic-site/dist/preview-app/`: `cp -R www ../ionic-site/content/dist/preview-app`
+6. If the site doesn't update you may need to restart `gulp watch`
+
+
+### Updating ionic-site
+
+`ionic-site` will automatically update on every commit to the master branch of this repo.
+
+### run on you android device or ios device
 Then, to run it, cd into `myTabs` and run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova platform add [android/ios]
+$ ionic cordova run [android/ios]
 ```
 
 Substitute ios for android if not on a Mac.
 
-# moveIonic
+
