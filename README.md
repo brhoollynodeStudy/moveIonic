@@ -1,5 +1,7 @@
 # moveIonic
 
+![示例1](https://github.com/brhoollynodeStudy/moveIonic/blob/master/src/assets/img/device-2017-08-12-001334.png)
+![示例2](https://github.com/brhoollynodeStudy/moveIonic/blob/master/src/assets/img/device-2017-08-12-001413.png)
 This app accompanies the Ionic component documentation.
 
 [[LIVE DEMO]](http://ionicframework.com/docs/components/)
